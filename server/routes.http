@@ -26,3 +26,16 @@ Content-Type: application/json
 {
   "prompt": "fogão, concertado, vidro errado"
 }
+
+###
+
+# @name generate-ai-completion
+
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+  "videoId": "fa60abc1-f317-4f4b-86f3-44f67bec37a5",
+  "temperature": 0.5,
+  "template": "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{transcription}'''"
+}
