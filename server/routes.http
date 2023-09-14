@@ -20,9 +20,9 @@ Content-Type: audio/mpeg
 
 # @name create-transcription
 
-POST http://localhost:3333/videos/aae82f1f-2244-4431-ac17-723726287b6b/transcription
+POST http://localhost:3333/videos/fa60abc1-f317-4f4b-86f3-44f67bec37a5/transcription
 Content-Type: application/json
 
 {
-  "prompt": "vidro do fogao quebrado, concertado, vidro errado"
+  "prompt": "fogão, concertado, vidro errado"
 }
