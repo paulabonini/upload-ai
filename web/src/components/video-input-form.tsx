@@ -54,7 +54,7 @@ export function VideoInputForm() {
     const data = await ffmpeg.readFile('output.mp3')
 
     const audioFileBlob = new Blob([data], { type: ' audio/mpeg' })
-    const audioFile = new File([audioFileBlob], 'audio.nmp3', {
+    const audioFile = new File([audioFileBlob], 'audio.mp3', {
       type: 'audio/mpeg',
     })
 
